@@ -1,0 +1,175 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+
+body{
+	background-color:#FFFFFF;
+	min-width: 372px;   /* Largura minima necessária quando os dispositivos tiverem na vertical */
+}
+
+header {
+	width: 100%;
+	height: 150px;
+	background-color: #F5F5F5;
+	z-index: 2;
+    position: relative;
+}
+
+/* .wrapper{
+    min-height: 100vh;    
+} */
+
+/* Shop */
+.text-arial-cinza {
+	font-family: arial;
+	font-size: 12px;
+	color: #666;
+}
+.text-roxo {
+	color: #6E3EA4;
+}
+#destaque-produtos-container {
+	position: relative;
+}
+#destaque-produtos {
+	margin: 30px auto;
+}
+#destaque-produtos .col-imagem {
+	text-align: center;
+}
+#destaque-produtos .col-imagem img {
+	max-width: 100%;
+	max-height: 250px;
+}
+#destaque-produtos .item {
+	display: inline-block;
+}
+#destaque-produtos .col-descricao h2 {
+	font-family: arial;
+	font-size: 20px;
+	color: #666;
+	margin-bottom: 10px;
+}
+#destaque-produtos .col-descricao .box-valor {
+	width: 100%;
+	position: relative;
+
+}
+#destaque-produtos .col-descricao .box-valor .text-reais {
+	font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    left: 28px;
+}
+#destaque-produtos .col-descricao .box-valor .text-valor {
+	font-size: 50px;
+	position: absolute;
+    top: -17px;
+    left: 54px;
+}
+#destaque-produtos .col-descricao .box-valor .text-valor-centavos {
+	font-size: 30px;
+	position: absolute;
+    top: -10px;
+    left: 182px;
+}
+#destaque-produtos .col-descricao .btn-comprar {
+	font-size: 26px;
+	padding: 10px 0;
+}
+#destaque-produtos .col-descricao .btn-comprar .fa {
+	font-size: 34px;
+}
+#destaque-produtos .col-descricao .text-parcelas {
+	margin-top: 20px;
+}
+
+
+#btn-destaque-prev {	/* Não Apagar */
+    position: absolute;
+    top: 140px;
+    left: 0;
+    background: none;
+    border: none;
+    font-size: 64px;
+	color:#2A2A2A;
+	outline:0;
+}
+#btn-destaque-next {	/* Não Apagar */
+    position: absolute;
+    top: 140px;
+    right: 0;
+    background: none;
+    border: none;
+    font-size: 64px;
+	color:#2A2A2A;
+	outline:0;
+}
+
+
+.box-produto-info a { /* Não Apagar */
+	text-decoration: none;
+}
+
+.box-produto-info .text-valor { /* Não Apagar */
+	font-size: 26px;
+	font-weight: bold;
+}
+.title-default-roxo h2 { /* Não Apagar */
+	color: #5E2799;
+    font-family: 'OpenSans-Light';
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#cart-products .form-control { /* Não Apagar */
+	text-align: center;
+	border: none;
+	background: none;
+	box-shadow: none;
+	outline: 0;
+}
+
+
+#cart-products img {/* Não Apagar */
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.bi-cart-prod  {
+	position: relative;
+	left: 180px;
+	bottom: -5px;
+}
+
+.bi-cart-prod::before {
+	position: absolute;
+	font-size: 28px;
+	z-index: 12;
+}
+
+.qntd-carrinho {
+	position: relative;
+	left: 205px;
+	bottom: 5px;
+	background-color: #ff0000;
+	color: #fff;
+	border: 2px solid #ff0000;
+	border-radius: 50% ;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
