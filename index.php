@@ -12,7 +12,7 @@ $app->get(
     '/',
     function () {
 
-        require_once("view/index.php");
+        require_once("index.php");
     }
 );
 

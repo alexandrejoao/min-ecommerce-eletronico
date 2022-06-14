@@ -2,9 +2,6 @@
 
 session_start();
 
-require 'inc/configuration.php';
-
-
 class Sql
 {
     //host
