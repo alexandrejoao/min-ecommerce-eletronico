@@ -1,0 +1,15 @@
+{
+    "name": "vendor/ecommerce-eletronico",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\EcommerceEletronico\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexandrejoao",
+            "email": "xandybrown.aj@gmail.com"
+        }
+    ],
+    "require": {}
+}
