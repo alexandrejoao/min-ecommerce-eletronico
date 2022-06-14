@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "compile": "@php -dphar.readonly=0 bin/compile",
-        "start": "index.php",
-        "phpstan": "@php vendor/bin/phpstan analyse --configuration=phpstan/config.neon"
+        
+        "start": "index.php"
+        
     }
 }
