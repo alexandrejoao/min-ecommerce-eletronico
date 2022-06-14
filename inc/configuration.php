@@ -2,6 +2,8 @@
 
 session_start();
 
+require_once 'inc/configuration.php';
+
 
 class Sql
 {
