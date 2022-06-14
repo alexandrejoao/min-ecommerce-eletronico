@@ -1,6 +1,5 @@
 <?php
 
-require 'index.php';
 require 'inc/configuration.php';
 require 'inc/Slim-2.x/Slim/Slim.php';
 
@@ -300,7 +299,3 @@ $app->get("/calcular-frete-:cep", function ($cep) {
 
 
 $app->run();
-
-
-
-?>
