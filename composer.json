@@ -1,7 +1,4 @@
 {
-    "bin": [
-        "bin/composer"
-    ],
     "scripts": {
         "compile": "@php -dphar.readonly=0 bin/compile",
         "start": "index.php",
