@@ -9,7 +9,7 @@ class Sql
 
     public function __construct()
     {
-        return $this->conn = mysqli_connect("127.0.0.1", "root", "root", "hcode_shop", 3306);
+        return $this->conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b73247dfff2465", "f0633a1c", "heroku_cc35a753502f7d0", 3306);
     }
 
     public function query($string_query)
