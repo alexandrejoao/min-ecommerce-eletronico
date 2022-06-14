@@ -2,7 +2,7 @@
 
 session_start();
 
-require_once 'inc/configuration.php';
+require 'inc/configuration.php';
 
 
 class Sql
